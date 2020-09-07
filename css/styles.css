@@ -1,0 +1,205 @@
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+
+p {
+  color: #8f8f8f;
+}
+/* headings */
+
+.big-heading{
+  color: #fff;
+  font-size: 3.5rem;
+  font-weight: 900;
+  line-height: 1.5;
+}
+.testimonial-text,.pricing-heading,.card-subheading{
+  font-size: 3rem;
+  font-weight: 600;
+  line-height: 1.5;
+}
+.feature-heading, .card-title{
+  color: #272727;
+  font-size: 1.37rem;
+  font-weight: bold;
+}
+
+/* ............ title section ............ */
+
+#title {
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+#title .container-fluid {
+  padding: 3% 15% 4%;
+}
+
+/* top navigation bar */
+#title nav {
+  padding: 0;
+}
+
+/* logo */
+#title .navbar-brand {
+  font-family: "Passion One", cursive;
+  font-size: 2rem;
+  letter-spacing: 1.2px;
+}
+
+/* list items */
+#title .nav-item {
+  padding: 0 18px;
+}
+
+/* navigation links in the list items */
+#title .nav-link {
+  font-size: 1.2rem;
+  font-weight: 300;
+}
+
+/* heading, buttons and picture */
+#title .row {
+  padding: 4.7rem 0 1.7rem 0;
+}
+
+/* download buttons */
+#title .btn {
+  margin: 1.5rem 1.25rem 2rem 0;
+}
+
+/* title image */
+#title img {
+  position: absolute;
+  right: 29%;
+  transform: rotate(20deg);
+  width: 60%;
+}
+
+@media (min-width:1121px) and (max-width:1204px){
+    #title .big-heading{
+        font-size: 3.1rem;
+    }
+}
+
+@media (min-width:992px) and (max-width:1120px){
+  #title .big-heading{
+        font-size: 2.84rem;
+    }
+}
+
+@media (min-width:547px) and (max-width:589px){
+  #title .big-heading{
+        font-size: 3.23rem;
+    }
+}
+
+@media (max-width:546px){
+  #title .big-heading{
+        font-size: 2.9rem;
+    }
+}
+
+@media (max-width:991px){
+    #title img{
+        position: static;
+        transform: rotate(0);
+    }
+    #title{
+        text-align: center;
+    }
+}
+
+
+/* ............ features section ............ */
+
+#features {
+  background-color: #fff;
+  position: relative; /*by changing the position from static to relative, the features section will sit on top of the image and the image will be hidden behind it*/
+  text-align: center;
+  /* if we wanted to put z-index = 1 we could have done that as well , but since both the elements (img and the features section), are positioned, and the order of features section in the html code is below the image, then it will automatically sit on top of the image.*/
+}
+
+#features .container-fluid {
+  padding: 7% 15%;
+}
+
+#features .feature-box {
+  margin: 5rem 0;
+  padding: 0 4%;
+}
+
+/* font awesome icons */
+#features .fas {
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+
+#features .fas:hover {
+  color: #ff4c68;
+}
+
+
+
+/* ............ testimonials section............ */
+#testimonials {
+  background-color: #ef8172;
+  color: #fff;
+  text-align: center;
+}
+#testimonials .carousel-item {
+  padding: 7% 15%;
+}
+
+#testimonials img {
+  border-radius: 100%;
+  margin: 1.25rem;
+  width: 10%;
+}
+/* ............ press section............ */
+#press {
+  background-color: #ef8172;
+  padding-bottom: 3%;
+  text-align: center;
+}
+
+#press img {
+  margin: 1.5% 1.5% 3.7%;
+  width: 15%;
+}
+
+/* ............ Pricing section............ */
+#pricing {
+  padding: 8%;
+  text-align: center;
+}
+
+/* price cards */
+
+#pricing .col-lg-4 {
+  padding:30px 20px;
+}
+
+/* ............ Call To Action section............ */
+#cta{
+    background-color: #ff4c68;
+padding:7% 15%;
+text-align: center;
+}
+
+
+#cta .btn{
+    margin: 2% 1%;
+}
+
+/* ............ Footer section............ */
+
+#footer{
+    padding: 7% 15%;
+    text-align: center;   
+}
+
+#footer .fab{
+    margin: 0 2% 2% 0;
+}
